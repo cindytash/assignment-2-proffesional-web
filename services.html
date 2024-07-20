@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Consultancy Services</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif; 
+      background-color: beige; 
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #041c54;
+      color: #fff; 
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      color: #ccc;
+    }
+
+    .services {
+      padding: 40px;
+      font-size: large;
+      text-align: center; 
+    }
+
+    .services h2 {
+      margin-bottom: 20px;
+    }
+
+    .service-cards {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px; 
+    }
+
+    .service-card {
+      width: 30%; 
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 20px;
+      background-color: #fff; 
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+
+    .service-card img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #041c54;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Tech Consultancy</h1>
+  </header>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="service-card">
+        <img src="download.jpeg" alt="Software Development">
+        <h3>Software Development</h3>
+        <p>Our team of skilled developers can build custom software solutions to streamline your business operations and drive innovation.</p>
+      </div>
+      <div class="service-card">
+        <img src="cloud.jpeg" alt="Cloud Computing">
+        <h3>Cloud Computing</h3>
+        <p>We help businesses leverage the power of cloud technology to improve flexibility, scalability, and cost-efficiency.</p>
+      </div>
+      <div class="service-card">
+        <img src="consult.jpeg" alt="IT Consulting">
+        <h3>IT Consulting</h3>
+        <p>Our expert consultants provide strategic guidance to align your technology infrastructure with your business goals.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
